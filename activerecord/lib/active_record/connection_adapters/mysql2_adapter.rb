@@ -1,10 +1,9 @@
 # frozen_string_literal: true
 
-require "active_record/connection_adapters/abstract_mysql_adapter"
-require "active_record/connection_adapters/mysql2/database_statements"
+require 'active_record/connection_adapters/abstract_mysql_adapter'
 
-gem "mysql2", "~> 0.5"
-require "mysql2"
+gem 'mysql2', '~> 0.3.11'
+require 'mysql2'
 
 module ActiveRecord
   module ConnectionAdapters
